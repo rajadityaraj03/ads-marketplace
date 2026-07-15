@@ -21,7 +21,7 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           port: ${{ secrets.FTP_PORT }}
           local-dir: ./
-          server-dir: projects/marketplace/
+          server-dir: /projects/marketplace/
           dangerous-clean-slate: false
           exclude: |
             **/.git*
